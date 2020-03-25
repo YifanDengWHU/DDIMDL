@@ -31,7 +31,7 @@ The function *prepare* will calulate the similarity between each drugs based on 
 - numpy
 - Keras
 - pandas
-- scikit-learn
+- scikit-learn (<=0.21.2)
 - stanfornlp  
 Use
 ```
