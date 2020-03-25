@@ -7,7 +7,7 @@ DDIMDL builds multimodal deep learning framework with multiple features of drugs
 ```
 -f *featureList*: A selection of features to be used in DDIMDL. The optional features are smile(substructure),target,enzyme and pathway of the drugs. It defaults to smile,target and enzyme.  
 -c *classifier*: A selection of prediction method to be used. The optional methods are DDIMDL, RF, KNN and LR. It defaults to DDIMDL.  
--p *NLPProcess*: The choices are read and process. It means read the processed result from database directly or process the raw data again with *NLPProcess.py* again. It defaults to read. In order to use *NLPProcess.py*, you need to install StanfordNLP package:
+-p *NLPProcess*: The choices are read and process. It means read the processed result from database directly or process the raw data again with *NLPProcess.py*. It defaults to read. In order to use *NLPProcess.py*, you need to install StanfordNLP package:
 
 ```
     pip install stanfordnlp
