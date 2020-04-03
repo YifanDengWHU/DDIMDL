@@ -25,7 +25,7 @@ Event.db contains the data we compiled from [DrugBank](https://www.drugbank.ca/)
 **4.event_numer** lists the kinds of DDI events and their occurance frequency.  
 ## Evaluation
 Simply run *DDIMDL.py* will start the train-test procedure.
-![avatar](https://raw.githubusercontent.com/YifanDengWHU/img/master/%E6%B5%81%E7%A8%8B%E5%9B%BE0316-3.bmp)
+![avatar](https://raw.githubusercontent.com/YifanDengWHU/img/master/workFlow.bmp)
 The function *prepare* will calulate the similarity between each drugs based on their features.  
 The function *cross_validation* will take the feature matrix as input to perform 5-CV and calculate metrics. Two csv files will be generated. For example, *smile_all_DDIMDL.csv* and *smile_each_DDIMDL.csv*. The first file evaluates the method's overall performance while the other evaluates the method's performance on each event. The meaning of the metrics can be seen in array *result_all* and *result_eve* of *DDIMDL.py*.
 ## Requirement
@@ -33,7 +33,7 @@ The function *cross_validation* will take the feature matrix as input to perform
 - Keras (==2.2.4)
 - pandas (==1.0.1)
 - scikit-learn (==0.21.2)
-- stanfornlp (==0.2.0)
+- stanfordnlp (==0.2.0)  
 Use
 ```
     pip install requirement.txt
