@@ -38,5 +38,5 @@ Use
 ```
     pip install requirement.txt
 ```
-to install all dependencies.  
+to install all dependency.  
 **Notice: Too high version of sklearn will probably not work. We use 0.21.2 for sklearn.**
