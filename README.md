@@ -20,7 +20,7 @@ And you need to download english package for StanforNLP:
 ## Dataset
 Event.db contains the data we compiled from [DrugBank](https://www.drugbank.ca/). It has 4 tables:  
 **1.drug** contains 572 kinds of drugs and their features.  
-**2.event** contains the 37264 DDIs we between the 572 kinds of drugs.  
+**2.event** contains the 37264 DDIs between the 572 kinds of drugs.  
 **3.extraction** is the process result of *NLPProcess*. Each interaction was transformed to a tuple: *{mechanism, action, drugA, drugB}*  
 **4.event_numer** lists the kinds of DDI events and their occurance frequency.  
 ## Evaluation
