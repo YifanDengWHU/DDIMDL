@@ -34,9 +34,9 @@ The function *cross_validation* will take the feature matrix as input to perform
 - pandas (==1.0.1)
 - scikit-learn (==0.21.2)
 - stanfordnlp (==0.2.0)  
-Use
+Use the following command to install all dependencies. 
 ```
     pip install requirement.txt
 ```
-to install all dependency.  
+ 
 **Notice: Too high version of sklearn will probably not work. We use 0.21.2 for sklearn.**
