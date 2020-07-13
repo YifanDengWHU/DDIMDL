@@ -1,3 +1,4 @@
+:pray:**I am looking for a PhD position in 2021 Fall, if you are interested in me, please [email](mailto:dyfmail@whu.edu.cn) me. More information about me can be seen [here.](http://yifandengwhu.github.io/)**
 # DDIMDL
 DDIMDL builds multimodal deep learning framework with multiple features of drugs to predict drug-drug-interaction(DDI) events.
 ## Usage
@@ -40,3 +41,12 @@ Use the following command to install all dependencies.
 ```
  
 **Notice: Too high version of sklearn will probably not work. We use 0.21.2 for sklearn.**
+## Citation  
+Please kindly cite the paper if you use the code or the datasets in this repo:
+```
+@article{deng2020multimodal,
+  title={A multimodal deep learning framework for predicting drug-drug interaction events},
+  author={Deng, Yifan and Xu, Xinran and Qiu, Yang and Xia, Jingbo and Zhang, Wen and Liu, Shichao},
+  journal={Bioinformatics}
+}
+```
