@@ -278,7 +278,7 @@ def multiclass_precision_recall_curve(y_true, y_score):
 def roc_aupr_score(y_true, y_score, average="macro"):
     def _binary_roc_aupr_score(y_true, y_score):
         precision, recall, pr_thresholds = precision_recall_curve(y_true, y_score)
-        return auc(precision, recall, reorder=True)
+        return auc(recall, precision, reorder=True)
 
     def _average_binary_score(binary_metric, y_true, y_score, average):  # y_true= y_one_hot
         if average == "binary":
