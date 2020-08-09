@@ -1,4 +1,4 @@
-:pray:**I am looking for a PhD position in 2021 Fall, if you are interested in me, please [email](mailto:dyfmail@whu.edu.cn) me. More information about me can be seen [here.](http://yifandengwhu.github.io/)**
+
 # DDIMDL
 DDIMDL builds multimodal deep learning framework with multiple features of drugs to predict drug-drug-interaction(DDI) events.
 ## Usage
