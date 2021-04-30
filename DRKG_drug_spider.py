@@ -138,6 +138,6 @@ for i in url_id:
     except:
         transporter=''
     #Creat a table named drug first, so that you can use the insert sql code.
-    cur.execute("insert into drug(id,name,interaction,smile,target,enzyme,carrier,transporter)values(?,?,?,?,?,?,?,?)",(drug[0][i],name,interaction,smile,target,enzyme,carrier,transporter))
+    cur.execute("insert into drug(id,name,interaction,smile,target,enzyme,carrier,transporter)values(?,?,?,?,?,?,?,?)",(i,name,interaction,smile,target,enzyme,carrier,transporter))
 conn.commit()
 conn.close()
